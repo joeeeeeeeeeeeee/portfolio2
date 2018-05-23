@@ -68,6 +68,7 @@ a:hover{
 }
 .splash_page{
   height: calc(100vh - 72px);
+  overflow: hidden;
   display: grid;
   grid-template-columns: 1.3fr 1fr;
   grid-template-rows: 1fr 100px;
@@ -165,7 +166,9 @@ a:hover{
   font-size: 100px;
   text-align: center;
 }
-
+.circle a:hover{
+  text-shadow: 1px 1px 20px rgb(0, 204, 187);
+}
 
 .mobile_only{
   display: none;
@@ -228,8 +231,8 @@ p em{
   margin: auto;
   width: 292px;
   display: grid;
-  gap: 40px;          /*using both with prefix and without since the former*/
-  grid-gap: 40px;     /*is depricated and the latter not fully implemented */
+  column-gap: 40px;          /*using both with prefix and without since the former*/
+  grid-column-gap: 40px;     /*is depricated and the latter not fully implemented */
   row-gap: 20px;
   grid-row-gap: 20px;
   grid-template-columns: 292px;
