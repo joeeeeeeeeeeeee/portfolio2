@@ -11,12 +11,12 @@
 </head>
 <body>
   <nav class="main_fixed_nav">
-    <a href="#home" class="site_name">Joe Weston</a>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
+    <a href="#anchor_home" class="site_name">Joe Weston</a>
+    <a href="#anchor_home">Home</a>
+    <a href="#anchor_about">About</a>
+    <a href="#anchor_projects">Projects</a>
   </nav>
-  <a name="home" class="anchor"></a>
+  <a id="anchor_home" class="anchor"></a>
   <section class="splash_page">
     <div class="splash_text_wrapper">
       <h1>Prospective front end developer</h1>
@@ -28,11 +28,11 @@
       <div></div>
     </div>
     <footer>
-      <div class="circle"><a href="#about"><i class="fa fa-angle-double-down"></i></a></div>
+      <div class="circle"><a href="#anchor_about"><i class="fa fa-angle-double-down"></i></a></div>
     </footer>
 
   </section>
-  <a name="about" class="anchor"></a>
+  <a id="anchor_about" class="anchor"></a>
   <section id="page_container">
     <div class="mobile_only">
       <h1>Joe Weston, Web Developer</h1>
@@ -61,13 +61,13 @@
       <p><em>Guitar playing</em></p>
     <h2>Personal Attributes</h2>
       <p>Eager learner, who is still learning, this CV should grow over-time. I really need a back end language to work with and specialise in</p>
-    <a name="projects" class="anchor"></a>
+    <a id="anchor_projects" class="anchor"></a>
     <h1>Project Examples</h1>
     <div class="card_grid">
       <div class="card">
         <figure>
           <a href="https://joeeeeeeeeeeeee.github.io/react_sketch/">
-            <img src="assets/images/react_sketch.png">
+            <img src="assets/images/react_sketch.png" alt="screenshot of project">
           </a>
           <figcaption>React Sketch</figcaption>
           <p>This is a version of Etch-a-Sketch built with the framework React.JS</p>
@@ -76,7 +76,7 @@
       <div class="card">
         <figure>
           <a href="https://joeeeeeeeeeeeee.github.io/lightbox/">
-            <img src="assets/images/lightbox.jpg">
+            <img src="assets/images/lightbox.jpg" alt="screenshot of project">
           </a>
           <figcaption>Lightbox</figcaption>
           <p>An example of a responsive lightbox gallery using a third party lightbox api and utilizing image compression for optimum performance</p>
@@ -85,7 +85,7 @@
       <div class="card">
         <figure>
           <a href="https://joeeeeeeeeeeeee.github.io/pomodoro">
-            <img src="assets/images/pomodoro_clock.png">
+            <img src="assets/images/pomodoro_clock.png" alt="screenshot of project">
           </a>
           <figcaption>Pomodoro Clock</figcaption>
           <p>A simple timer app created using pure JavaScript (ES6) and the HTML DOM</p>
@@ -94,7 +94,7 @@
       <div class="card">
         <figure>
           <a href="https://joeeeeeeeeeeeee.github.io/converter/">
-            <img src="assets/images/converter.png">
+            <img src="assets/images/converter.png" alt="screenshot of project">
           </a>
           <figcaption>Unit Converter</figcaption>
           <p>A JQuery app with custom radio buttons</p>
@@ -103,7 +103,7 @@
       <div class="card">
         <figure>
           <a href="https://joeeeeeeeeeeeee.github.io/youtube-clone/">
-            <img src="assets/images/youtube_clone.png">
+            <img src="assets/images/youtube_clone.png" alt="screenshot of project">
           </a>
           <figcaption>Youtube Clone</figcaption>
           <p>A non-responsive (desktop only) clone of typical Youtube page using floating positioning rather than grid or flex-box with embedded video</p>
@@ -112,16 +112,13 @@
       <div class="card">
         <figure>
           <a href="https://repl.it/@joe111/TicTacToe">
-            <img src="assets/images/tic_tac_toe_ruby.png">
+            <img src="assets/images/tic_tac_toe_ruby.png" alt="screenshot of project">
           </a>
           <figcaption>Tic-Tac-Toe (live)</figcaption>
           <p>An OOP command-line version of Tic-tac-toe in Ruby.</p>
         </figure>
       </div>
-    <div>
+    </div>
   </section>
-
-
 </body>
-
 </html>
