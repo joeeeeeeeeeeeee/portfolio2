@@ -109,14 +109,9 @@ a:hover{
     "g g h h h i . . ."
     "j j j j j i . . ."
     ". . . . . i . . ." ;
-    animation-name: example;
-    animation-duration: 400s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    transform: rotate(5deg);
 }
-@keyframes example{
-  100%{transform: rotate(360deg);}
-}
+
 
 .grid_example > *{
   border: solid #ddd;
@@ -139,15 +134,8 @@ a:hover{
   grid-area: x;
   border: none;
   background-color: #00ccbb;
-  animation-name: example2;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  transform: rotate(40deg);
   }
-@keyframes example2{
-  100%{transform: rotate(-360deg);}
-}
-
 .splash_page footer{
   grid-column: 1/3;
   background-color: #00ccbb;
